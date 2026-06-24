@@ -14,21 +14,5 @@
     "monto": 15000,
     "cat": "Herramientas/Equipo",
     "editing": false
-  },
-  {
-    "id": 3,
-    "fecha": "2026-06-23",
-    "concepto": "Vino para madera",
-    "monto": 40000,
-    "cat": "Materiales",
-    "editing": false
-  },
-  {
-    "id": 4,
-    "fecha": "2026-06-26",
-    "concepto": "asdasdsdsd",
-    "monto": 10200,
-    "cat": "Permisos/Tramites",
-    "editing": false
   }
 ]
