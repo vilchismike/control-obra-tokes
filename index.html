@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Control de Construcción — $270,000 MXN</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.0.0/dist/tabler-icons.min.css" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f8faf8;
+      --bg-secondary: #f0f4f0;
+      --bg-card: #ffffff;
+      --text-primary: #1a2e1a;
+      --text-secondary: #4b6b4b;
+      --text-tertiary: #8aab8a;
+      --border: rgba(30,80,30,0.12);
+      --border-hover: rgba(30,80,30,0.25);
+      --green-dark: #166534;
+      --green-mid: #16a34a;
+      --green-light: #22c55e;
+      --green-bg: #f0fdf4;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1a0f;
+        --bg-secondary: #162116;
+        --bg-card: #1a2e1a;
+        --text-primary: #e8f5e8;
+        --text-secondary: #9ab89a;
+        --text-tertiary: #5a7a5a;
+        --border: rgba(100,180,100,0.15);
+        --border-hover: rgba(100,180,100,0.3);
+        --green-dark: #4ade80;
+        --green-mid: #22c55e;
+        --green-bg: #14291a;
+      }
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+
+    .container { max-width: 1100px; margin: 0 auto; }
+
+    /* Header */
+    .header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 0.5px solid var(--border);
+    }
+    .header-title {
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .header-title i { color: var(--green-mid); }
+    .header-sub { font-size: 13px; color: var(--text-secondary); margin-top: 4px; }
+    .header-date { font-size: 12px; color: var(--text-tertiary); text-align: right; margin-top: 4px; }
+
+    /* Alert */
+    .alert-banner {
+      background: #fef3c7;
+      border: 0.5px solid #d97706;
+      border-radius: var(--radius-md);
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #92400e;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 1.5rem;
+    }
+    @media (prefers-color-scheme: dark) {
+      .alert-banner { background: #2d1c00; color: #fbbf24; border-color: #92400e; }
+    }
+
+    /* Metrics */
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0,1fr));
+      gap: 12px;
+      margin-bottom: 1.5rem;
+    }
+    @media (max-width: 640px) { .metrics { grid-template-columns: 1fr 1fr; } }
+    .metric-card {
+      background: var(--bg-secondary);
+      border-radius: var(--radius-md);
+      padding: 16px;
+    }
+    .metric-label { font-size: 12px; color: var(--text-secondary); margin-bottom: 6px; }
+    .metric-value { font-size: 22px; font-weight: 600; color: var(--text-primary); }
+    .metric-sub { font-size: 11px; color: var(--text-tertiary); margin-top: 4px; }
+    .metric-danger { color: #dc2626 !important; }
+
+    /* Progress */
+    .progress-wrap { margin-bottom: 1.5rem; }
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+    .progress-bar {
+      height: 10px;
+      background: var(--bg-secondary);
+      border-radius: 99px;
+      overflow: hidden;
+      border: 0.5px solid var(--border);
+    }
+    .progress-fill {
+      height: 100%;
+      border-radius: 99px;
+      background: var(--green-mid);
+      transition: width 0.4s ease, background 0.4s ease;
+    }
+
+    /* Charts */
+    .charts-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 1.5rem;
+    }
+    @media (max-width: 640px) { .charts-row { grid-template-columns: 1fr; } }
+    .chart-card {
+      background: var(--bg-card);
+      border: 0.5px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 16px;
+    }
+    .chart-title {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 10px;
+      font-size: 11px;
+      color: var(--text-secondary);
+    }
+    .legend-item { display: flex; align-items: center; gap: 4px; }
+    .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+
+    /* Add section */
+    .add-section {
+      background: var(--bg-card);
+      border: 0.5px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 16px;
+      margin-bottom: 1.5rem;
+    }
+    .section-title {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: 130px 1fr 120px 160px auto;
+      gap: 8px;
+      align-items: center;
+    }
+    @media (max-width: 720px) {
+      .form-row { grid-template-columns: 1fr 1fr; }
+      .form-row .btn-add { grid-column: span 2; }
+    }
+    .form-row input,
+    .form-row select {
+      font-size: 13px;
+      padding: 8px 12px;
+      border-radius: var(--radius-md);
+      border: 0.5px solid var(--border-hover);
+      background: var(--bg);
+      color: var(--text-primary);
+      width: 100%;
+      outline: none;
+    }
+    .form-row input:focus,
+    .form-row select:focus { border-color: var(--green-mid); box-shadow: 0 0 0 3px rgba(22,163,74,0.12); }
+
+    /* Buttons */
+    .btn-add {
+      background: var(--green-dark);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius-md);
+      padding: 8px 18px;
+      font-size: 13px;
+      cursor: pointer;
+      font-weight: 500;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-add:hover { background: var(--green-mid); }
+    .btn-edit {
+      background: transparent;
+      border: 0.5px solid var(--border-hover);
+      border-radius: var(--radius-md);
+      padding: 5px 9px;
+      font-size: 13px;
+      cursor: pointer;
+      color: var(--text-secondary);
+    }
+    .btn-edit:hover { background: var(--bg-secondary); }
+    .btn-del {
+      background: transparent;
+      border: 0.5px solid #fca5a5;
+      border-radius: var(--radius-md);
+      padding: 5px 9px;
+      font-size: 13px;
+      cursor: pointer;
+      color: #dc2626;
+    }
+    .btn-del:hover { background: #fef2f2; }
+    .btn-save {
+      background: var(--green-dark);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius-md);
+      padding: 5px 10px;
+      font-size: 12px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    .btn-cancel {
+      background: transparent;
+      border: 0.5px solid var(--border-hover);
+      border-radius: var(--radius-md);
+      padding: 5px 8px;
+      font-size: 12px;
+      cursor: pointer;
+      color: var(--text-secondary);
+    }
+
+    /* Table */
+    .table-wrap {
+      overflow-x: auto;
+      border: 0.5px solid var(--border);
+      border-radius: var(--radius-lg);
+      margin-bottom: 1.5rem;
+      background: var(--bg-card);
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    thead th {
+      background: var(--bg-secondary);
+      padding: 11px 14px;
+      text-align: left;
+      font-weight: 500;
+      color: var(--text-secondary);
+      font-size: 12px;
+      border-bottom: 0.5px solid var(--border);
+      white-space: nowrap;
+    }
+    tbody td {
+      padding: 11px 14px;
+      border-bottom: 0.5px solid var(--border);
+      color: var(--text-primary);
+      vertical-align: middle;
+    }
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:hover { background: var(--bg-secondary); }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 99px;
+      font-size: 11px;
+      font-weight: 500;
+    }
+    .edit-input {
+      font-size: 13px;
+      padding: 5px 8px;
+      border-radius: var(--radius-md);
+      border: 0.5px solid var(--border-hover);
+      background: var(--bg);
+      color: var(--text-primary);
+      width: 100%;
+      outline: none;
+    }
+    .edit-input:focus { border-color: var(--green-mid); }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      font-size: 11px;
+      color: var(--text-tertiary);
+      padding-top: 1.5rem;
+      border-top: 0.5px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <div>
+      <div class="header-title">
+        <i class="ti ti-building-warehouse"></i>
+        Control de Construcción
+      </div>
+      <div class="header-sub">Presupuesto pactado: $270,000 MXN</div>
+    </div>
+    <div>
+      <div class="header-date" id="today-date"></div>
+    </div>
+  </div>
+
+  <div id="alert-container"></div>
+
+  <div class="metrics">
+    <div class="metric-card">
+      <div class="metric-label">Presupuesto total</div>
+      <div class="metric-value" style="color:var(--green-dark);">$270,000</div>
+      <div class="metric-sub">MXN pactado</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">Total gastado</div>
+      <div class="metric-value" id="m-gastado">$0</div>
+      <div class="metric-sub" id="m-gastado-pct">0% del presupuesto</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">Saldo disponible</div>
+      <div class="metric-value" id="m-saldo">$270,000</div>
+      <div class="metric-sub" id="m-saldo-sub">100% restante</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">Total de ítems</div>
+      <div class="metric-value" id="m-items">0</div>
+      <div class="metric-sub" id="m-prom">Promedio: $0</div>
+    </div>
+  </div>
+
+  <div class="progress-wrap">
+    <div class="progress-label">
+      <span>Avance del presupuesto</span>
+      <span id="pct-label">0%</span>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-fill" id="progress-fill" style="width:0%;"></div>
+    </div>
+  </div>
+
+  <div class="charts-row">
+    <div class="chart-card">
+      <div class="chart-title">
+        <i class="ti ti-chart-donut"></i> Gasto por categoría
+      </div>
+      <div class="legend" id="donut-legend"></div>
+      <div style="position:relative;height:180px;">
+        <canvas id="donutChart" role="img" aria-label="Gráfica de dona: gasto por categoría de construcción">Sin datos aún.</canvas>
+      </div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">
+        <i class="ti ti-chart-line"></i> Historial de gastos acumulado
+      </div>
+      <div class="legend" style="font-size:11px;color:var(--text-secondary);margin-bottom:8px;">
+        <span class="legend-item"><span class="legend-dot" style="background:#16a34a;"></span>Gastado</span>
+        <span class="legend-item"><span class="legend-dot" style="background:#dc2626;border:1px dashed #dc2626;background:transparent;width:16px;height:2px;border-radius:0;"></span>Presupuesto</span>
+      </div>
+      <div style="position:relative;height:190px;">
+        <canvas id="lineChart" role="img" aria-label="Gráfica de línea: historial de gastos acumulados en el tiempo">Sin datos aún.</canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="add-section">
+    <div class="section-title">
+      <i class="ti ti-plus"></i> Agregar ítem
+    </div>
+    <div class="form-row">
+      <input id="f-fecha" type="date" title="Fecha" />
+      <input id="f-concepto" type="text" placeholder="Concepto o descripción" title="Concepto" />
+      <input id="f-monto" type="number" placeholder="Monto $" title="Monto" min="0" step="0.01" />
+      <select id="f-cat" title="Categoría">
+        <option value="">— Categoría —</option>
+        <option>Materiales</option>
+        <option>Mano de obra</option>
+        <option>Herramientas/Equipo</option>
+        <option>Permisos/Trámites</option>
+        <option>Vicios Ocultos</option>
+      </select>
+      <button class="btn-add" onclick="addItem()">
+        <i class="ti ti-plus"></i> Agregar
+      </button>
+    </div>
+  </div>
+
+  <div class="section-title">
+    <i class="ti ti-table"></i> Registro de gastos
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:52px;">ID</th>
+          <th style="width:120px;">Fecha</th>
+          <th>Concepto</th>
+          <th style="width:120px;">Monto</th>
+          <th style="width:150px;">Categoría</th>
+          <th style="width:100px;">Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-body">
+        <tr id="empty-row">
+          <td colspan="6" style="text-align:center;color:var(--text-tertiary);padding:2.5rem 0;">
+            Sin registros aún. Agrega el primer ítem arriba.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    Control de Construcción — $270,000 MXN &nbsp;|&nbsp; Los datos se guardan en tu navegador (localStorage)
+  </div>
+</div>
+
+<script>
+  const PRESUPUESTO = 270000;
+  const CAT_COLORS = {
+    'Materiales':           '#16a34a',
+    'Mano de obra':         '#0d9488',
+    'Herramientas/Equipo':  '#2563eb',
+    'Permisos/Trámites':    '#7c3aed',
+    'Vicios Ocultos':       '#dc2626'
+  };
+
+  let items = JSON.parse(localStorage.getItem('construccion_items') || '[]');
+  let nextId = items.length ? Math.max(...items.map(i => i.id)) + 1 : 1;
+  let donutChart, lineChart;
+
+  function save() {
+    localStorage.setItem('construccion_items', JSON.stringify(items));
+  }
+
+  function fmt(n) {
+    return '$' + Math.round(n).toLocaleString('es-MX');
+  }
+
+  function fmtDate(d) {
+    if (!d) return '';
+    const [y, m, day] = d.split('-');
+    const meses = ['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'];
+    return `${day}-${meses[+m - 1]}-${y}`;
+  }
+
+  // Fecha actual en header
+  document.getElementById('today-date').textContent =
+    new Date().toLocaleDateString('es-MX', { weekday:'long', day:'2-digit', month:'long', year:'numeric' });
+
+  function addItem() {
+    const fecha    = document.getElementById('f-fecha').value;
+    const concepto = document.getElementById('f-concepto').value.trim();
+    const monto    = parseFloat(document.getElementById('f-monto').value);
+    const cat      = document.getElementById('f-cat').value;
+    if (!fecha || !concepto || isNaN(monto) || monto <= 0 || !cat) {
+      alert('Por favor completa todos los campos correctamente.');
+      return;
+    }
+    items.push({ id: nextId++, fecha, concepto, monto, cat });
+    document.getElementById('f-fecha').value    = '';
+    document.getElementById('f-concepto').value = '';
+    document.getElementById('f-monto').value    = '';
+    document.getElementById('f-cat').value      = '';
+    save();
+    render();
+  }
+
+  function deleteItem(id) {
+    if (!confirm('¿Eliminar este ítem?')) return;
+    items = items.filter(i => i.id !== id);
+    save();
+    render();
+  }
+
+  function startEdit(id) {
+    items = items.map(i => ({ ...i, editing: i.id === id }));
+    render();
+  }
+
+  function saveEdit(id) {
+    const row      = document.getElementById('row-' + id);
+    const fecha    = row.querySelector('.edit-fecha').value;
+    const concepto = row.querySelector('.edit-concepto').value.trim();
+    const monto    = parseFloat(row.querySelector('.edit-monto').value);
+    const cat      = row.querySelector('.edit-cat').value;
+    if (!fecha || !concepto || isNaN(monto) || monto <= 0 || !cat) {
+      alert('Datos inválidos.'); return;
+    }
+    items = items.map(i => i.id === id
+      ? { ...i, fecha, concepto, monto, cat, editing: false }
+      : i
+    );
+    save();
+    render();
+  }
+
+  function cancelEdit(id) {
+    items = items.map(i => ({ ...i, editing: false }));
+    render();
+  }
+
+  function render() {
+    const total = items.reduce((s, i) => s + i.monto, 0);
+    const saldo = PRESUPUESTO - total;
+    const pct   = Math.min(100, (total / PRESUPUESTO) * 100);
+
+    document.getElementById('m-gastado').textContent      = fmt(total);
+    document.getElementById('m-gastado-pct').textContent  = pct.toFixed(1) + '% del presupuesto';
+    document.getElementById('m-saldo').textContent        = fmt(saldo);
+    document.getElementById('m-saldo').className          = 'metric-value' + (saldo < 0 ? ' metric-danger' : '');
+    document.getElementById('m-saldo-sub').textContent    = (100 - pct).toFixed(1) + '% restante';
+    document.getElementById('m-items').textContent        = items.length;
+    document.getElementById('m-prom').textContent         = 'Promedio: ' + (items.length ? fmt(total / items.length) : '$0');
+    document.getElementById('pct-label').textContent      = pct.toFixed(1) + '%';
+
+    const fill = document.getElementById('progress-fill');
+    fill.style.width      = pct + '%';
+    fill.style.background = pct >= 80 ? '#dc2626' : pct >= 60 ? '#d97706' : '#16a34a';
+
+    // Alerta
+    const alertEl = document.getElementById('alert-container');
+    alertEl.innerHTML = pct >= 80
+      ? `<div class="alert-banner"><i class="ti ti-alert-triangle" style="font-size:17px;flex-shrink:0;"></i>
+          <span><strong>Alerta:</strong> Has consumido el ${pct.toFixed(1)}% del presupuesto. Saldo restante: ${fmt(saldo)}.</span>
+         </div>`
+      : '';
+
+    // Tabla
+    const tbody = document.getElementById('tabla-body');
+    if (items.length === 0) {
+      tbody.innerHTML = `<tr id="empty-row"><td colspan="6" style="text-align:center;color:var(--text-tertiary);padding:2.5rem 0;">
+        Sin registros aún. Agrega el primer ítem arriba.</td></tr>`;
+    } else {
+      tbody.innerHTML = items.map(item => {
+        const color = CAT_COLORS[item.cat] || '#888';
+        if (item.editing) {
+          return `<tr id="row-${item.id}">
+            <td style="color:var(--text-tertiary);font-size:12px;">#${item.id}</td>
+            <td><input class="edit-input edit-fecha" type="date" value="${item.fecha}" /></td>
+            <td><input class="edit-input edit-concepto" type="text" value="${item.concepto}" /></td>
+            <td><input class="edit-input edit-monto" type="number" value="${item.monto}" min="0" step="0.01" /></td>
+            <td><select class="edit-input edit-cat">
+              ${Object.keys(CAT_COLORS).map(c =>
+                `<option${c === item.cat ? ' selected' : ''}>${c}</option>`
+              ).join('')}
+            </select></td>
+            <td style="white-space:nowrap;display:flex;gap:4px;">
+              <button class="btn-save" onclick="saveEdit(${item.id})"><i class="ti ti-check"></i> Guardar</button>
+              <button class="btn-cancel" onclick="cancelEdit(${item.id})">Cancelar</button>
+            </td>
+          </tr>`;
+        }
+        return `<tr id="row-${item.id}">
+          <td style="color:var(--text-tertiary);font-size:12px;">#${item.id}</td>
+          <td style="color:var(--text-secondary);font-size:12px;">${fmtDate(item.fecha)}</td>
+          <td style="font-weight:500;">${item.concepto}</td>
+          <td style="font-weight:600;color:var(--green-dark);">${fmt(item.monto)}</td>
+          <td><span class="badge" style="background:${color}1a;color:${color};">${item.cat}</span></td>
+          <td style="white-space:nowrap;display:flex;gap:6px;">
+            <button class="btn-edit" onclick="startEdit(${item.id})" title="Editar"><i class="ti ti-edit"></i></button>
+            <button class="btn-del"  onclick="deleteItem(${item.id})" title="Eliminar"><i class="ti ti-trash"></i></button>
+          </td>
+        </tr>`;
+      }).join('');
+    }
+
+    updateCharts(total);
+  }
+
+  function updateCharts(total) {
+    const cats       = Object.keys(CAT_COLORS);
+    const catTotals  = cats.map(c => items.filter(i => i.cat === c).reduce((s, i) => s + i.monto, 0));
+    const activeCats = cats.filter((_, idx) => catTotals[idx] > 0);
+    const activeVals = catTotals.filter(v => v > 0);
+    const activeColors = activeCats.map(c => CAT_COLORS[c]);
+
+    // Leyenda dona
+    const legend = document.getElementById('donut-legend');
+    legend.innerHTML = activeCats.map((c, i) =>
+      `<span class="legend-item">
+        <span class="legend-dot" style="background:${activeColors[i]};"></span>
+        ${c} &nbsp;${fmt(activeVals[i])}
+       </span>`
+    ).join('');
+
+    if (donutChart) { donutChart.destroy(); donutChart = null; }
+    if (activeCats.length > 0) {
+      const totalG = activeVals.reduce((s, v) => s + v, 0);
+      donutChart = new Chart(document.getElementById('donutChart'), {
+        type: 'doughnut',
+        data: {
+          labels: activeCats,
+          datasets: [{
+            data: activeVals,
+            backgroundColor: activeColors,
+            borderWidth: 3,
+            borderColor: '#ffffff'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          cutout: '62%',
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: ctx => ` ${fmt(ctx.raw)}  (${((ctx.raw / totalG) * 100).toFixed(1)}%)`
+              }
+            }
+          }
+        }
+      });
+    }
+
+    // Línea acumulada
+    const sorted = [...items].sort((a, b) => a.fecha.localeCompare(b.fecha));
+    const dateLabels = [];
+    const cumulative = [];
+    let acc = 0;
+    sorted.forEach(it => {
+      acc += it.monto;
+      dateLabels.push(fmtDate(it.fecha));
+      cumulative.push(acc);
+    });
+
+    if (lineChart) { lineChart.destroy(); lineChart = null; }
+    if (sorted.length > 0) {
+      lineChart = new Chart(document.getElementById('lineChart'), {
+        type: 'line',
+        data: {
+          labels: dateLabels,
+          datasets: [
+            {
+              label: 'Gastado acumulado',
+              data: cumulative,
+              borderColor: '#16a34a',
+              backgroundColor: 'rgba(22,163,74,0.08)',
+              fill: true,
+              tension: 0.3,
+              pointRadius: 4,
+              pointBackgroundColor: '#16a34a',
+              borderWidth: 2
+            },
+            {
+              label: 'Presupuesto',
+              data: Array(dateLabels.length).fill(PRESUPUESTO),
+              borderColor: '#dc2626',
+              borderDash: [5, 4],
+              borderWidth: 1.5,
+              pointRadius: 0,
+              fill: false
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: { callbacks: { label: ctx => ` ${fmt(ctx.raw)}` } }
+          },
+          scales: {
+            x: {
+              ticks: { font: { size: 11 }, color: '#888', maxRotation: 40, autoSkip: true },
+              grid: { display: false }
+            },
+            y: {
+              ticks: {
+                callback: v => '$' + (v / 1000).toFixed(0) + 'k',
+                font: { size: 11 },
+                color: '#888'
+              },
+              grid: { color: 'rgba(128,128,128,0.1)' }
+            }
+          }
+        }
+      });
+    }
+  }
+
+  render();
+</script>
+</body>
+</html>
