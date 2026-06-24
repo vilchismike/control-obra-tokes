@@ -19,5 +19,12 @@
     "concepto": "Vino para madera",
     "monto": 40000,
     "cat": "Materiales"
+  },
+  {
+    "id": 4,
+    "fecha": "2026-06-26",
+    "concepto": "asdasdsdsd",
+    "monto": 10200,
+    "cat": "Permisos/Trámites"
   }
 ]
