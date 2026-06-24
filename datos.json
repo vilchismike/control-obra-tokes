@@ -30,13 +30,5 @@
     "monto": 10200,
     "cat": "Permisos/Tramites",
     "editing": false
-  },
-  {
-    "id": 5,
-    "fecha": "2026-06-23",
-    "concepto": "mano obra",
-    "monto": 3333,
-    "cat": "Vicios Ocultos",
-    "editing": false
   }
 ]
