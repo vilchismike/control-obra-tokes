@@ -5,5 +5,12 @@
     "concepto": "TOKES VINO POR DINERO PARA COMPRAR MATERIAL DE TRABAJO",
     "monto": 30000,
     "cat": "Herramientas/Equipo"
+  },
+  {
+    "id": 7,
+    "fecha": "2026-06-26",
+    "concepto": "TOKES PAGO NOMINA",
+    "monto": 25900,
+    "cat": "Mano de obra"
   }
 ]
