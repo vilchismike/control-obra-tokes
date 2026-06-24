@@ -26,5 +26,12 @@
     "concepto": "HERRERIA",
     "monto": 3200,
     "cat": "Vicios Ocultos"
+  },
+  {
+    "id": 10,
+    "fecha": "2026-07-31",
+    "concepto": "CONTRATO DE AGUA",
+    "monto": 1200,
+    "cat": "Permisos/Tramites"
   }
 ]
