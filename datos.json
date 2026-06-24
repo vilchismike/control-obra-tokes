@@ -12,5 +12,12 @@
     "concepto": "Tokes vino para mano de obra",
     "monto": 5000,
     "cat": "Herramientas/Equipo"
+  },
+  {
+    "id": 3,
+    "fecha": "2026-06-23",
+    "concepto": "Vino para madera",
+    "monto": 40000,
+    "cat": "Materiales"
   }
 ]
