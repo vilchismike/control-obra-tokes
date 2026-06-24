@@ -12,5 +12,12 @@
     "concepto": "TOKES PAGO NOMINA",
     "monto": 25900,
     "cat": "Mano de obra"
+  },
+  {
+    "id": 8,
+    "fecha": "2026-06-30",
+    "concepto": "PAGO DE MATERIALES",
+    "monto": 14000,
+    "cat": "Herramientas/Equipo"
   }
 ]
