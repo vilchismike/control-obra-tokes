@@ -1,13 +1,5 @@
 [
   {
-    "id": 1,
-    "fecha": "2026-06-23",
-    "concepto": "Tokes vino por dinero para compra de herramienta",
-    "monto": 12000,
-    "cat": "Mano de obra",
-    "editing": false
-  },
-  {
     "id": 2,
     "fecha": "2026-06-23",
     "concepto": "Tokes vino para mano de obra",
