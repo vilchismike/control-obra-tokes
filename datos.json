@@ -4,34 +4,39 @@
     "fecha": "2026-06-23",
     "concepto": "Tokes vino por dinero para compra de herramienta",
     "monto": 12000,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 2,
     "fecha": "2026-06-23",
     "concepto": "Tokes vino para mano de obra",
     "monto": 5000,
-    "cat": "Herramientas/Equipo"
+    "cat": "Herramientas/Equipo",
+    "editing": false
   },
   {
     "id": 3,
     "fecha": "2026-06-23",
     "concepto": "Vino para madera",
     "monto": 40000,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 4,
     "fecha": "2026-06-26",
     "concepto": "asdasdsdsd",
     "monto": 10200,
-    "cat": "Permisos/Trámites"
+    "cat": "Permisos/Trámites",
+    "editing": false
   },
   {
     "id": 5,
     "fecha": "2026-06-23",
     "concepto": "mano obra",
     "monto": 3333,
-    "cat": "Vicios Ocultos"
+    "cat": "Vicios Ocultos",
+    "editing": false
   }
 ]
