@@ -43,5 +43,12 @@
     "concepto": "PAGO MATERIAL FERRETERIA MAKARZA",
     "monto": 2875,
     "cat": "Materiales"
+  },
+  {
+    "id": 7,
+    "fecha": "2026-06-27",
+    "concepto": "TOKES SOLICITO DINERO PARA PAGO DE MANO DE OBRA",
+    "monto": 8450,
+    "cat": "Mano de obra"
   }
 ]
