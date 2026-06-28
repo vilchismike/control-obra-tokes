@@ -22,5 +22,12 @@
     "monto": 8612,
     "cat": "Materiales",
     "editing": false
+  },
+  {
+    "id": 4,
+    "fecha": "2026-06-24",
+    "concepto": "Pago lumitodo material casa Ballinas Toques",
+    "monto": 297,
+    "cat": "Materiales"
   }
 ]
