@@ -36,5 +36,12 @@
     "concepto": "PAGO MATERIAL FERRETERIA MAKARZA",
     "monto": 6146,
     "cat": "Materiales"
+  },
+  {
+    "id": 6,
+    "fecha": "2026-06-26",
+    "concepto": "PAGO MATERIAL FERRETERIA MAKARZA",
+    "monto": 2875,
+    "cat": "Materiales"
   }
 ]
