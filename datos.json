@@ -29,5 +29,12 @@
     "concepto": "Pago lumitodo material casa Ballinas Toques",
     "monto": 297,
     "cat": "Materiales"
+  },
+  {
+    "id": 5,
+    "fecha": "2026-06-26",
+    "concepto": "PAGO MATERIAL FERRETERIA MAKARZA",
+    "monto": 6146,
+    "cat": "Materiales"
   }
 ]
