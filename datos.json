@@ -12,5 +12,12 @@
     "concepto": "TOKES SOLICITO MADERA",
     "monto": 2500,
     "cat": "Herramientas/Equipo"
+  },
+  {
+    "id": 3,
+    "fecha": "2026-06-27",
+    "concepto": "TOKES SOLICITO DINERO PARA PAGO DE MANO DE OBRA",
+    "monto": 8450,
+    "cat": "Mano de obra"
   }
 ]
