@@ -5,5 +5,12 @@
     "concepto": "TOKES VINO POR DINERO PARA COMPRAR HERRAMIENTAS",
     "monto": 19050,
     "cat": "Herramientas/Equipo"
+  },
+  {
+    "id": 2,
+    "fecha": "2026-06-23",
+    "concepto": "TOKES SOLICITO MADERA",
+    "monto": 2500,
+    "cat": "Herramientas/Equipo"
   }
 ]
