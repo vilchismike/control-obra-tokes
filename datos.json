@@ -4,20 +4,23 @@
     "fecha": "2026-06-23",
     "concepto": "TOKES VINO POR DINERO PARA COMPRAR HERRAMIENTAS",
     "monto": 19050,
-    "cat": "Herramientas/Equipo"
+    "cat": "Herramientas/Equipo",
+    "editing": false
   },
   {
     "id": 2,
     "fecha": "2026-06-23",
     "concepto": "TOKES SOLICITO MADERA",
     "monto": 2500,
-    "cat": "Herramientas/Equipo"
+    "cat": "Herramientas/Equipo",
+    "editing": false
   },
   {
     "id": 3,
-    "fecha": "2026-06-27",
-    "concepto": "TOKES SOLICITO DINERO PARA PAGO DE MANO DE OBRA",
-    "monto": 8450,
-    "cat": "Mano de obra"
+    "fecha": "2026-06-24",
+    "concepto": "Pago ferreteria Jobs material casa Sta. Leticia Toques",
+    "monto": 8612,
+    "cat": "Materiales",
+    "editing": false
   }
 ]
