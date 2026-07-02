@@ -50,5 +50,12 @@
     "concepto": "Pago Makarza ferreteria para Sta. Leticia Toques",
     "monto": 5174,
     "cat": "Materiales"
+  },
+  {
+    "id": 8,
+    "fecha": "2026-06-29",
+    "concepto": "Pago el Tienda \"Nvo. Electricista\" , casa Sta. Leticia,  Toques",
+    "monto": 10316,
+    "cat": "Materiales"
   }
 ]
