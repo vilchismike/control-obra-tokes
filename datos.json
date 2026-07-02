@@ -43,5 +43,12 @@
     "concepto": "TOKES SOLICITO DINERO PARA PAGO DE MANO DE OBRA",
     "monto": 8450,
     "cat": "Mano de obra"
+  },
+  {
+    "id": 7,
+    "fecha": "2026-06-29",
+    "concepto": "Pago Makarza ferreteria para Sta. Leticia Toques",
+    "monto": 5174,
+    "cat": "Materiales"
   }
 ]
