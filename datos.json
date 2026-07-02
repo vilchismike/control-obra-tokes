@@ -64,5 +64,12 @@
     "concepto": "Pago Makarza ferreteria material para Sta. Leticia",
     "monto": 5368,
     "cat": "Materiales"
+  },
+  {
+    "id": 10,
+    "fecha": "2026-07-01",
+    "concepto": "Pago de notas a Toques casa Sta. Leticia",
+    "monto": 3987,
+    "cat": "Materiales"
   }
 ]
