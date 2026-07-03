@@ -71,5 +71,12 @@
     "concepto": "Pago de notas a Toques casa Sta. Leticia",
     "monto": 3987,
     "cat": "Materiales"
+  },
+  {
+    "id": 11,
+    "fecha": "2026-07-02",
+    "concepto": "Pago de nomina a tokes, adelanto para poder cubrir garantia de Departamento Lienzos Imper",
+    "monto": 3227.72,
+    "cat": "Mano de obra"
   }
 ]
