@@ -78,5 +78,12 @@
     "concepto": "Pago de nomina a tokes, adelanto para poder cubrir garantia de Departamento Lienzos Imper",
     "monto": 3227.72,
     "cat": "Mano de obra"
+  },
+  {
+    "id": 12,
+    "fecha": "2026-07-03",
+    "concepto": "Pago Makarza materia para Sta. Leticia Toques",
+    "monto": 8633,
+    "cat": "Materiales"
   }
 ]
