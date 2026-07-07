@@ -92,5 +92,12 @@
     "concepto": "Rafa Le da a Toques en Sta. Leticia para Nomina",
     "monto": 27900,
     "cat": "Mano de obra"
+  },
+  {
+    "id": 14,
+    "fecha": "2026-07-04",
+    "concepto": "Pago Fix repongo esta nota a Toques p/ Sta. Leticia",
+    "monto": 191,
+    "cat": "Materiales"
   }
 ]
