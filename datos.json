@@ -197,5 +197,12 @@
     "concepto": "Pago Makarza Sta. Leticia Toques",
     "monto": 3814,
     "cat": "Materiales"
+  },
+  {
+    "id": 29,
+    "fecha": "2026-07-11",
+    "concepto": "Pago Ferreteria Gomez 3 PSP Sta. Leticia Toques",
+    "monto": 735,
+    "cat": "Materiales"
   }
 ]
