@@ -176,5 +176,12 @@
     "concepto": "SE LE DEPOSITO PARA COMPRAR CARTCHER",
     "monto": 2000,
     "cat": "Herramientas/Equipo"
+  },
+  {
+    "id": 26,
+    "fecha": "2026-07-11",
+    "concepto": "Pago Berel Sellador y resanador Sta. Leticia Toques",
+    "monto": 3573,
+    "cat": "Materiales"
   }
 ]
