@@ -134,5 +134,12 @@
     "concepto": "Pago MI casa material Sta. Leticia Toques",
     "monto": 1778,
     "cat": "Materiales"
+  },
+  {
+    "id": 20,
+    "fecha": "2026-07-08",
+    "concepto": "Pago Fix material Sta. Leticia Toques",
+    "monto": 689,
+    "cat": "Materiales"
   }
 ]
