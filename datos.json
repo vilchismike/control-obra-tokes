@@ -204,5 +204,12 @@
     "concepto": "Pago Ferreteria Gomez 3 PSP Sta. Leticia Toques",
     "monto": 735,
     "cat": "Materiales"
+  },
+  {
+    "id": 30,
+    "fecha": "2026-07-11",
+    "concepto": "LE DOY DINERO AL TOKES AFUERA DE CASA SANTA LETICIA",
+    "monto": 23500,
+    "cat": "Mano de obra"
   }
 ]
