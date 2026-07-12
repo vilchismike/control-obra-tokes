@@ -141,5 +141,12 @@
     "concepto": "Pago Fix material Sta. Leticia Toques",
     "monto": 689,
     "cat": "Materiales"
+  },
+  {
+    "id": 21,
+    "fecha": "2026-07-08",
+    "concepto": "Pago Imperquimia material Sta. Leticia Toques",
+    "monto": 21609,
+    "cat": "Materiales"
   }
 ]
