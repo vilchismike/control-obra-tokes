@@ -155,5 +155,12 @@
     "concepto": "Pago Makarza para Sta. Leticia Toques",
     "monto": 798,
     "cat": "Materiales"
+  },
+  {
+    "id": 23,
+    "fecha": "2026-07-09",
+    "concepto": "Pago Fix material para Sta. Leticia Toques",
+    "monto": 248,
+    "cat": "Materiales"
   }
 ]
