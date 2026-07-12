@@ -99,5 +99,12 @@
     "concepto": "Pago Fix repongo esta nota a Toques p/ Sta. Leticia",
     "monto": 191,
     "cat": "Materiales"
+  },
+  {
+    "id": 15,
+    "fecha": "2026-07-06",
+    "concepto": "Pago Makarza material Para Sta. Leticia Toques",
+    "monto": 3683,
+    "cat": "Materiales"
   }
 ]
