@@ -148,5 +148,12 @@
     "concepto": "Pago Imperquimia material Sta. Leticia Toques",
     "monto": 21609,
     "cat": "Materiales"
+  },
+  {
+    "id": 22,
+    "fecha": "2026-07-09",
+    "concepto": "Pago Makarza para Sta. Leticia Toques",
+    "monto": 798,
+    "cat": "Materiales"
   }
 ]
