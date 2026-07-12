@@ -120,5 +120,12 @@
     "concepto": "Le doy a Toques para escalera",
     "monto": 4750,
     "cat": "Herramientas/Equipo"
+  },
+  {
+    "id": 18,
+    "fecha": "2026-07-08",
+    "concepto": "Pago Makarza material Sta. Leticia Toques",
+    "monto": 3840,
+    "cat": "Materiales"
   }
 ]
