@@ -113,5 +113,12 @@
     "concepto": "Pago Ferreteria Mi Casa Sta. Leticia tokes",
     "monto": 2022,
     "cat": "Materiales"
+  },
+  {
+    "id": 17,
+    "fecha": "2026-07-06",
+    "concepto": "Le doy a Toques para escalera",
+    "monto": 4750,
+    "cat": "Herramientas/Equipo"
   }
 ]
