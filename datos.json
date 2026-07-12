@@ -162,5 +162,12 @@
     "concepto": "Pago Fix material para Sta. Leticia Toques",
     "monto": 248,
     "cat": "Materiales"
+  },
+  {
+    "id": 24,
+    "fecha": "2026-07-09",
+    "concepto": "Pago Lumitodo para Sta. Leticia Toques",
+    "monto": 338,
+    "cat": "Materiales"
   }
 ]
