@@ -190,5 +190,12 @@
     "concepto": "Pago Makarza Sta. Leticia Toques",
     "monto": 3651,
     "cat": "Materiales"
+  },
+  {
+    "id": 28,
+    "fecha": "2026-07-11",
+    "concepto": "Pago Makarza Sta. Leticia Toques",
+    "monto": 3814,
+    "cat": "Materiales"
   }
 ]
