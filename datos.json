@@ -169,5 +169,12 @@
     "concepto": "Pago Lumitodo para Sta. Leticia Toques",
     "monto": 338,
     "cat": "Materiales"
+  },
+  {
+    "id": 25,
+    "fecha": "2026-07-10",
+    "concepto": "SE LE DEPOSITO PARA COMPRAR CARTCHER",
+    "monto": 2000,
+    "cat": "Herramientas/Equipo"
   }
 ]
