@@ -127,5 +127,12 @@
     "concepto": "Pago Makarza material Sta. Leticia Toques",
     "monto": 3840,
     "cat": "Materiales"
+  },
+  {
+    "id": 19,
+    "fecha": "2026-07-08",
+    "concepto": "Pago MI casa material Sta. Leticia Toques",
+    "monto": 1778,
+    "cat": "Materiales"
   }
 ]
