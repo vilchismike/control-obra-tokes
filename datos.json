@@ -28,216 +28,247 @@
     "fecha": "2026-06-26",
     "concepto": "PAGO MATERIAL FERRETERIA MAKARZA",
     "monto": 6146,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 5,
     "fecha": "2026-06-26",
     "concepto": "PAGO MATERIAL FERRETERIA MAKARZA",
     "monto": 2875,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 6,
     "fecha": "2026-06-27",
     "concepto": "TOKES SOLICITO DINERO PARA PAGO DE MANO DE OBRA",
     "monto": 8450,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 7,
     "fecha": "2026-06-29",
     "concepto": "Pago Makarza ferreteria para Sta. Leticia Toques",
     "monto": 5174,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 8,
     "fecha": "2026-06-29",
     "concepto": "Pago el Tienda \"Nvo. Electricista\" , casa Sta. Leticia,  Toques",
     "monto": 10316,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 9,
     "fecha": "2026-07-01",
     "concepto": "Pago Makarza ferreteria material para Sta. Leticia",
     "monto": 5368,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 10,
     "fecha": "2026-07-01",
     "concepto": "Pago de notas a Toques casa Sta. Leticia",
     "monto": 3987,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 11,
     "fecha": "2026-07-02",
     "concepto": "Pago de nomina a tokes, adelanto para poder cubrir garantia de Departamento Lienzos Imper",
     "monto": 3227.72,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 12,
     "fecha": "2026-07-03",
     "concepto": "Pago Makarza materia para Sta. Leticia Toques",
     "monto": 8633,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 13,
     "fecha": "2026-07-04",
     "concepto": "Rafa Le da a Toques en Sta. Leticia para Nomina",
     "monto": 27900,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 14,
     "fecha": "2026-07-04",
     "concepto": "Pago Fix repongo esta nota a Toques p/ Sta. Leticia",
     "monto": 191,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 15,
     "fecha": "2026-07-06",
     "concepto": "Pago Makarza material Para Sta. Leticia Toques",
     "monto": 3683,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 16,
     "fecha": "2026-07-06",
     "concepto": "Pago Ferreteria Mi Casa Sta. Leticia tokes",
     "monto": 2022,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 17,
     "fecha": "2026-07-06",
     "concepto": "Le doy a Toques para escalera",
     "monto": 4750,
-    "cat": "Herramientas/Equipo"
+    "cat": "Herramientas/Equipo",
+    "editing": false
   },
   {
     "id": 18,
     "fecha": "2026-07-08",
     "concepto": "Pago Makarza material Sta. Leticia Toques",
     "monto": 3840,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 19,
     "fecha": "2026-07-08",
     "concepto": "Pago MI casa material Sta. Leticia Toques",
     "monto": 1778,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 20,
     "fecha": "2026-07-08",
     "concepto": "Pago Fix material Sta. Leticia Toques",
     "monto": 689,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 21,
     "fecha": "2026-07-08",
     "concepto": "Pago Imperquimia material Sta. Leticia Toques",
     "monto": 21609,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 22,
     "fecha": "2026-07-09",
     "concepto": "Pago Makarza para Sta. Leticia Toques",
     "monto": 798,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 23,
     "fecha": "2026-07-09",
     "concepto": "Pago Fix material para Sta. Leticia Toques",
     "monto": 248,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 24,
     "fecha": "2026-07-09",
     "concepto": "Pago Lumitodo para Sta. Leticia Toques",
     "monto": 338,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 25,
     "fecha": "2026-07-10",
     "concepto": "SE LE DEPOSITO PARA COMPRAR CARTCHER",
     "monto": 2000,
-    "cat": "Herramientas/Equipo"
+    "cat": "Herramientas/Equipo",
+    "editing": false
   },
   {
     "id": 26,
     "fecha": "2026-07-11",
     "concepto": "Pago Berel Sellador y resanador Sta. Leticia Toques",
     "monto": 3573,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 27,
     "fecha": "2026-07-11",
     "concepto": "Pago Makarza Sta. Leticia Toques",
     "monto": 3651,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 28,
     "fecha": "2026-07-11",
     "concepto": "Pago Makarza Sta. Leticia Toques",
     "monto": 3814,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 29,
     "fecha": "2026-07-11",
     "concepto": "Pago Ferreteria Gomez 3 PSP Sta. Leticia Toques",
     "monto": 735,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 30,
     "fecha": "2026-07-11",
     "concepto": "LE DOY DINERO AL TOKES AFUERA DE CASA SANTA LETICIA",
     "monto": 23500,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 31,
     "fecha": "2026-07-13",
     "concepto": "MATERIALES TOKES RAFA DEBE DE DESMENUZAR ESTE MONTO",
     "monto": 4050,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 32,
     "fecha": "2026-07-13",
     "concepto": "tokes pidio pagar valvula",
     "monto": 334.45,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 33,
     "fecha": "2026-07-16",
-    "concepto": "tokes pidio pagar una coladera",
-    "monto": 126,
-    "cat": "Materiales"
+    "concepto": "Material en fix",
+    "monto": 586,
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 34,
     "fecha": "2026-07-18",
     "concepto": "RAFA LEL LEVO A TOKES EN OBRA SNTA LETICIA",
     "monto": 18100,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   }
 ]
