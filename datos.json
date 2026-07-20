@@ -270,5 +270,12 @@
     "monto": 126,
     "cat": "Materiales",
     "editing": false
+  },
+  {
+    "id": 35,
+    "fecha": "2026-07-18",
+    "concepto": "RAFA LEL LEVO A TOKES EN OBRA SNTA LETICIA",
+    "monto": 18100,
+    "cat": "Mano de obra"
   }
 ]
