@@ -211,5 +211,12 @@
     "concepto": "LE DOY DINERO AL TOKES AFUERA DE CASA SANTA LETICIA",
     "monto": 23500,
     "cat": "Mano de obra"
+  },
+  {
+    "id": 31,
+    "fecha": "2026-07-13",
+    "concepto": "MATERIALES TOKES RAFA DEBE DE DESMENUZAR ESTE MONTO",
+    "monto": 4050,
+    "cat": "Materiales"
   }
 ]
