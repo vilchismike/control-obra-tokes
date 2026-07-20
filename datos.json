@@ -225,5 +225,12 @@
     "concepto": "tokes pidio pagar valvula",
     "monto": 334.45,
     "cat": "Materiales"
+  },
+  {
+    "id": 33,
+    "fecha": "2026-07-16",
+    "concepto": "tokes pidio pagar una coladera",
+    "monto": 126,
+    "cat": "Materiales"
   }
 ]
