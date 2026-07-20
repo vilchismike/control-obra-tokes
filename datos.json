@@ -218,5 +218,12 @@
     "concepto": "MATERIALES TOKES RAFA DEBE DE DESMENUZAR ESTE MONTO",
     "monto": 4050,
     "cat": "Materiales"
+  },
+  {
+    "id": 32,
+    "fecha": "2026-07-13",
+    "concepto": "tokes pidio pagar valvula",
+    "monto": 334.45,
+    "cat": "Materiales"
   }
 ]
