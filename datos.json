@@ -232,5 +232,12 @@
     "concepto": "tokes pidio pagar una coladera",
     "monto": 126,
     "cat": "Materiales"
+  },
+  {
+    "id": 34,
+    "fecha": "2026-07-18",
+    "concepto": "RAFA LEL LEVO A TOKES EN OBRA SNTA LETICIA",
+    "monto": 18100,
+    "cat": "Mano de obra"
   }
 ]
