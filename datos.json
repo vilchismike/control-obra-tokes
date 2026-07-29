@@ -333,5 +333,12 @@
     "concepto": "Pago Makarza pegazulejo para Sta. Leticia Toques",
     "monto": 3100,
     "cat": "Materiales"
+  },
+  {
+    "id": 44,
+    "fecha": "2026-07-28",
+    "concepto": "DEPOSITO PARA MATERIAL ALUMINIO PARA DOMOS",
+    "monto": 14000,
+    "cat": "Materiales"
   }
 ]
