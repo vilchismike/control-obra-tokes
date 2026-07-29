@@ -277,5 +277,12 @@
     "concepto": "RAFA LEL LEVO A TOKES EN OBRA SNTA LETICIA",
     "monto": 18100,
     "cat": "Mano de obra"
+  },
+  {
+    "id": 36,
+    "fecha": "2026-07-21",
+    "concepto": "Materiales de Mexico casa Sta. Leticia Toques",
+    "monto": 2669,
+    "cat": "Materiales"
   }
 ]
