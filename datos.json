@@ -326,5 +326,12 @@
     "concepto": "Le doy a Toques para pago de 2 notas MDM y Lumitodo",
     "monto": 4700,
     "cat": "Materiales"
+  },
+  {
+    "id": 43,
+    "fecha": "2026-07-27",
+    "concepto": "Pago Makarza pegazulejo para Sta. Leticia Toques",
+    "monto": 3100,
+    "cat": "Materiales"
   }
 ]
