@@ -305,5 +305,12 @@
     "concepto": "Pago Berel resanador y esmalte para Sta. Leticia Toques",
     "monto": 810,
     "cat": "Materiales"
+  },
+  {
+    "id": 40,
+    "fecha": "2026-07-23",
+    "concepto": "Pago Tarja para casa santa leticia",
+    "monto": 2916,
+    "cat": "Materiales"
   }
 ]
