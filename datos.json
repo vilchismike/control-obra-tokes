@@ -284,5 +284,12 @@
     "concepto": "Materiales de Mexico casa Sta. Leticia Toques",
     "monto": 2669,
     "cat": "Materiales"
+  },
+  {
+    "id": 37,
+    "fecha": "2026-07-21",
+    "concepto": "Pago Berel Brochas y thinner para Sta. Leticia Toques",
+    "monto": 83,
+    "cat": "Materiales"
   }
 ]
