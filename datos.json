@@ -298,5 +298,12 @@
     "concepto": "Pago Festher estopa para Sta. Leticia toques",
     "monto": 29,
     "cat": "Materiales"
+  },
+  {
+    "id": 39,
+    "fecha": "2026-07-21",
+    "concepto": "Pago Berel resanador y esmalte para Sta. Leticia Toques",
+    "monto": 810,
+    "cat": "Materiales"
   }
 ]
