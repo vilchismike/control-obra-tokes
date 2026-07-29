@@ -312,5 +312,12 @@
     "concepto": "Pago Tarja para casa santa leticia",
     "monto": 2916,
     "cat": "Materiales"
+  },
+  {
+    "id": 41,
+    "fecha": "2026-07-25",
+    "concepto": "Le doy a Toques Nomina de Casa Sta. Leticia",
+    "monto": 14800,
+    "cat": "Mano de obra"
   }
 ]
