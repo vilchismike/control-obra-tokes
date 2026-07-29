@@ -291,5 +291,12 @@
     "concepto": "Pago Berel Brochas y thinner para Sta. Leticia Toques",
     "monto": 83,
     "cat": "Materiales"
+  },
+  {
+    "id": 38,
+    "fecha": "2026-07-21",
+    "concepto": "Pago Festher estopa para Sta. Leticia toques",
+    "monto": 29,
+    "cat": "Materiales"
   }
 ]
