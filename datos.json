@@ -319,5 +319,12 @@
     "concepto": "Le doy a Toques Nomina de Casa Sta. Leticia",
     "monto": 14800,
     "cat": "Mano de obra"
+  },
+  {
+    "id": 42,
+    "fecha": "2026-07-25",
+    "concepto": "Le doy a Toques para pago de 2 notas MDM y Lumitodo",
+    "monto": 4700,
+    "cat": "Materiales"
   }
 ]
