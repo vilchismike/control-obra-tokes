@@ -354,5 +354,12 @@
     "concepto": "NOMIINA PARA TOKES",
     "monto": 14900,
     "cat": "Mano de obra"
+  },
+  {
+    "id": 47,
+    "fecha": "2026-08-01",
+    "concepto": "Tokes Materiales",
+    "monto": 2000,
+    "cat": "Materiales"
   }
 ]
