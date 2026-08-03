@@ -340,5 +340,12 @@
     "concepto": "DEPOSITO PARA MATERIAL ALUMINIO PARA DOMOS",
     "monto": 14000,
     "cat": "Materiales"
+  },
+  {
+    "id": 45,
+    "fecha": "2026-07-29",
+    "concepto": "Fix, MDM, Makarza y otros Sta. Leticia Toques",
+    "monto": 7550,
+    "cat": "Materiales"
   }
 ]
