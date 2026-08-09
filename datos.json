@@ -469,5 +469,12 @@
     "concepto": "Le doy a toques en Sta. Leticia Nomina",
     "monto": 16800,
     "cat": "Mano de obra"
+  },
+  {
+    "id": 61,
+    "fecha": "2026-08-07",
+    "concepto": "Le doy a toques en Sta. Leticia Material",
+    "monto": 1020,
+    "cat": "Materiales"
   }
 ]
