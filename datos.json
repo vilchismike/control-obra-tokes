@@ -375,5 +375,12 @@
     "concepto": "Le doy a toques en Sta. Leticia Material",
     "monto": 1020,
     "cat": "Materiales"
+  },
+  {
+    "id": 50,
+    "fecha": "2026-08-07",
+    "concepto": "Pago Oxxo con comision lavavos mercado pago",
+    "monto": 5800,
+    "cat": "Materiales"
   }
 ]
