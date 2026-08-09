@@ -406,5 +406,12 @@
     "monto": 500,
     "cat": "Materiales",
     "editing": false
+  },
+  {
+    "id": 52,
+    "fecha": "2026-08-04",
+    "concepto": "Le doy a toques en Sta. Leticia para Material",
+    "monto": 500,
+    "cat": "Materiales"
   }
 ]
