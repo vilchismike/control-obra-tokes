@@ -427,5 +427,12 @@
     "concepto": "Le doy a Toques para pago de material Sta. Leticia",
     "monto": 570,
     "cat": "Materiales"
+  },
+  {
+    "id": 55,
+    "fecha": "2026-08-06",
+    "concepto": "Pago Gersa Taza de baño para Sta. Leticia",
+    "monto": 2199,
+    "cat": "Materiales"
   }
 ]
