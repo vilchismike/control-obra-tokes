@@ -361,5 +361,12 @@
     "concepto": "Tokes Materiales",
     "monto": 2000,
     "cat": "Materiales"
+  },
+  {
+    "id": 48,
+    "fecha": "2026-08-07",
+    "concepto": "Le doy a toques en Sta. Leticia Nomina",
+    "monto": 16800,
+    "cat": "Mano de obra"
   }
 ]
