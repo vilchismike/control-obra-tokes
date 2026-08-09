@@ -448,5 +448,12 @@
     "concepto": "Pago ferreteria Mi casa material para Sta. Leticia Toques",
     "monto": 313,
     "cat": "Materiales"
+  },
+  {
+    "id": 58,
+    "fecha": "2026-08-06",
+    "concepto": "Le doy a Toques como adelanto de nómina",
+    "monto": 2000,
+    "cat": "Mano de obra"
   }
 ]
