@@ -441,5 +441,12 @@
     "concepto": "Pago MDM 20 bultos estuco para Sta. Leticia Toques",
     "monto": 3180,
     "cat": "Materiales"
+  },
+  {
+    "id": 57,
+    "fecha": "2026-08-06",
+    "concepto": "Pago ferreteria Mi casa material para Sta. Leticia Toques",
+    "monto": 313,
+    "cat": "Materiales"
   }
 ]
