@@ -276,118 +276,135 @@
     "fecha": "2026-07-18",
     "concepto": "RAFA LEL LEVO A TOKES EN OBRA SNTA LETICIA",
     "monto": 18100,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 36,
     "fecha": "2026-07-21",
     "concepto": "Materiales de Mexico casa Sta. Leticia Toques",
     "monto": 2669,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 37,
     "fecha": "2026-07-21",
     "concepto": "Pago Berel Brochas y thinner para Sta. Leticia Toques",
     "monto": 83,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 38,
     "fecha": "2026-07-21",
     "concepto": "Pago Festher estopa para Sta. Leticia toques",
     "monto": 29,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 39,
     "fecha": "2026-07-21",
     "concepto": "Pago Berel resanador y esmalte para Sta. Leticia Toques",
     "monto": 810,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 40,
     "fecha": "2026-07-23",
     "concepto": "Pago Tarja para casa santa leticia",
     "monto": 2916,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 41,
     "fecha": "2026-07-25",
     "concepto": "Le doy a Toques Nomina de Casa Sta. Leticia",
     "monto": 14800,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 42,
     "fecha": "2026-07-25",
     "concepto": "Le doy a Toques para pago de 2 notas MDM y Lumitodo",
     "monto": 4700,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 43,
     "fecha": "2026-07-27",
     "concepto": "Pago Makarza pegazulejo para Sta. Leticia Toques",
     "monto": 3100,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 44,
     "fecha": "2026-07-28",
     "concepto": "DEPOSITO PARA MATERIAL ALUMINIO PARA DOMOS",
     "monto": 14000,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 45,
     "fecha": "2026-07-29",
     "concepto": "Fix, MDM, Makarza y otros Sta. Leticia Toques",
     "monto": 7550,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 46,
     "fecha": "2026-08-01",
     "concepto": "NOMIINA PARA TOKES",
     "monto": 14900,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 47,
     "fecha": "2026-08-01",
     "concepto": "Tokes Materiales",
     "monto": 2000,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 48,
-    "fecha": "2026-08-07",
-    "concepto": "Le doy a toques en Sta. Leticia Nomina",
-    "monto": 16800,
-    "cat": "Mano de obra"
+    "fecha": "2026-08-03",
+    "concepto": "Pago Mat. de Mex. Sta. Leticia piso sobre piso",
+    "monto": 950,
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 49,
     "fecha": "2026-08-07",
     "concepto": "Le doy a toques en Sta. Leticia Material",
     "monto": 1020,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 50,
     "fecha": "2026-08-07",
     "concepto": "Pago Oxxo con comision lavavos mercado pago",
     "monto": 5800,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 51,
     "fecha": "2026-08-08",
     "concepto": "Le doy a Toques para material Sta. Leticia",
     "monto": 7500,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   }
 ]
