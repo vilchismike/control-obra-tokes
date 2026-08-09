@@ -413,5 +413,12 @@
     "concepto": "Le doy a toques en Sta. Leticia para Material",
     "monto": 500,
     "cat": "Materiales"
+  },
+  {
+    "id": 53,
+    "fecha": "2026-08-05",
+    "concepto": "PAGO DE ALUMINIO DE 3 DOMOS SANTA LETICIA",
+    "monto": 9500,
+    "cat": "Materiales"
   }
 ]
