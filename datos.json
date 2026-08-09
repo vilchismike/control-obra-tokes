@@ -434,5 +434,12 @@
     "concepto": "Pago Gersa Taza de baño para Sta. Leticia",
     "monto": 2199,
     "cat": "Materiales"
+  },
+  {
+    "id": 56,
+    "fecha": "2026-08-06",
+    "concepto": "Pago MDM 20 bultos estuco para Sta. Leticia Toques",
+    "monto": 3180,
+    "cat": "Materiales"
   }
 ]
