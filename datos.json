@@ -462,5 +462,12 @@
     "concepto": "Pago Comex pintura Sta. Leticia Toques",
     "monto": 9060,
     "cat": "Materiales"
+  },
+  {
+    "id": 60,
+    "fecha": "2026-08-07",
+    "concepto": "Le doy a toques en Sta. Leticia Nomina",
+    "monto": 16800,
+    "cat": "Mano de obra"
   }
 ]
