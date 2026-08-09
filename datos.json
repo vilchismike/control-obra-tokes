@@ -455,5 +455,12 @@
     "concepto": "Le doy a Toques como adelanto de nómina",
     "monto": 2000,
     "cat": "Mano de obra"
+  },
+  {
+    "id": 59,
+    "fecha": "2026-08-07",
+    "concepto": "Pago Comex pintura Sta. Leticia Toques",
+    "monto": 9060,
+    "cat": "Materiales"
   }
 ]
