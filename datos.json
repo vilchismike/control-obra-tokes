@@ -412,83 +412,95 @@
     "fecha": "2026-08-04",
     "concepto": "Le doy a toques en Sta. Leticia para Material",
     "monto": 500,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 53,
     "fecha": "2026-08-05",
     "concepto": "PAGO DE ALUMINIO DE 3 DOMOS SANTA LETICIA",
     "monto": 9500,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 54,
     "fecha": "2026-08-06",
     "concepto": "Le doy a Toques para pago de material Sta. Leticia",
     "monto": 570,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 55,
     "fecha": "2026-08-06",
     "concepto": "Pago Gersa Taza de baño para Sta. Leticia",
     "monto": 2199,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 56,
     "fecha": "2026-08-06",
     "concepto": "Pago MDM 20 bultos estuco para Sta. Leticia Toques",
     "monto": 3180,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 57,
     "fecha": "2026-08-06",
     "concepto": "Pago ferreteria Mi casa material para Sta. Leticia Toques",
     "monto": 313,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 58,
     "fecha": "2026-08-06",
-    "concepto": "Le doy a Toques como adelanto de nómina",
+    "concepto": "Le doy a Toques como adelanto de nÃ³mina",
     "monto": 2000,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 59,
     "fecha": "2026-08-07",
     "concepto": "Pago Comex pintura Sta. Leticia Toques",
     "monto": 9060,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 60,
     "fecha": "2026-08-07",
     "concepto": "Le doy a toques en Sta. Leticia Nomina",
     "monto": 16800,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 61,
     "fecha": "2026-08-07",
     "concepto": "Le doy a toques en Sta. Leticia Material",
     "monto": 1020,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 62,
     "fecha": "2026-08-07",
     "concepto": "Pago Oxxo con comision lavavos mercado pago",
     "monto": 5800,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 63,
     "fecha": "2026-08-08",
     "concepto": "Le doy a Toques para material Sta. Leticia",
     "monto": 7500,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   }
 ]
