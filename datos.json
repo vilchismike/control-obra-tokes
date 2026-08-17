@@ -516,5 +516,12 @@
     "concepto": "Le doy a toques para bulto de yeso",
     "monto": 200,
     "cat": "Materiales"
+  },
+  {
+    "id": 66,
+    "fecha": "2026-08-14",
+    "concepto": "Le doy a Persi para material toques en Sta. Leticia",
+    "monto": 2000,
+    "cat": "Materiales"
   }
 ]
