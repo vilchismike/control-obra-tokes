@@ -537,5 +537,12 @@
     "concepto": "Pago el nuevo Electricista material Toques Sta. Leticia",
     "monto": 3022,
     "cat": "Materiales"
+  },
+  {
+    "id": 69,
+    "fecha": "2026-08-14",
+    "concepto": "Pago Mat. de Mex Sta. Leticia Toques",
+    "monto": 4283,
+    "cat": "Materiales"
   }
 ]
