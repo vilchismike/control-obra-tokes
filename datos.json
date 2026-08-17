@@ -544,5 +544,12 @@
     "concepto": "Pago Mat. de Mex Sta. Leticia Toques",
     "monto": 4283,
     "cat": "Materiales"
+  },
+  {
+    "id": 70,
+    "fecha": "2026-08-15",
+    "concepto": "Le doy a Toques para Nómina de Sta. Leticia",
+    "monto": 17500,
+    "cat": "Mano de obra"
   }
 ]
