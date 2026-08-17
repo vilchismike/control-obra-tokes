@@ -502,5 +502,12 @@
     "monto": 7500,
     "cat": "Materiales",
     "editing": false
+  },
+  {
+    "id": 64,
+    "fecha": "2026-08-11",
+    "concepto": "Deposito Chino anticipo Ventanas Aluminio Sta. Leticia",
+    "monto": 3500,
+    "cat": "Materiales"
   }
 ]
