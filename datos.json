@@ -558,5 +558,12 @@
     "monto": 17500,
     "cat": "Mano de obra",
     "editing": false
+  },
+  {
+    "id": 71,
+    "fecha": "2026-08-15",
+    "concepto": "LE DI A TOKES PARA MANO DE OBRA",
+    "monto": 2000,
+    "cat": "Mano de obra"
   }
 ]
