@@ -530,5 +530,12 @@
     "concepto": "Le doy a toques para anticipo de porton y material",
     "monto": 7000,
     "cat": "Materiales"
+  },
+  {
+    "id": 68,
+    "fecha": "2026-08-14",
+    "concepto": "Pago el nuevo Electricista material Toques Sta. Leticia",
+    "monto": 3022,
+    "cat": "Materiales"
   }
 ]
