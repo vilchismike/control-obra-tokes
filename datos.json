@@ -508,48 +508,55 @@
     "fecha": "2026-08-11",
     "concepto": "Deposito Chino anticipo Ventanas Aluminio Sta. Leticia",
     "monto": 3500,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 65,
     "fecha": "2026-08-11",
     "concepto": "Le doy a toques para bulto de yeso",
     "monto": 200,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 66,
     "fecha": "2026-08-14",
     "concepto": "Le doy a Persi para material toques en Sta. Leticia",
     "monto": 2000,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 67,
     "fecha": "2026-08-14",
     "concepto": "Le doy a toques para anticipo de porton y material",
     "monto": 7000,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 68,
     "fecha": "2026-08-14",
     "concepto": "Pago el nuevo Electricista material Toques Sta. Leticia",
     "monto": 3022,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 69,
     "fecha": "2026-08-14",
     "concepto": "Pago Mat. de Mex Sta. Leticia Toques",
     "monto": 4283,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 70,
-    "fecha": "2026-08-15",
+    "fecha": "2026-08-14",
     "concepto": "Le doy a Toques para Nómina de Sta. Leticia",
     "monto": 17500,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   }
 ]
