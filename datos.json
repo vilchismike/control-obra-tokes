@@ -565,5 +565,12 @@
     "concepto": "LE DI A TOKES PARA MANO DE OBRA",
     "monto": 2000,
     "cat": "Mano de obra"
+  },
+  {
+    "id": 72,
+    "fecha": "2026-08-15",
+    "concepto": "Deposito Chino anticipo Ventanas Aluminio Sta. Leticia",
+    "monto": 2400,
+    "cat": "Materiales"
   }
 ]
