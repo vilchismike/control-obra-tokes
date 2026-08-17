@@ -523,5 +523,12 @@
     "concepto": "Le doy a Persi para material toques en Sta. Leticia",
     "monto": 2000,
     "cat": "Materiales"
+  },
+  {
+    "id": 67,
+    "fecha": "2026-08-14",
+    "concepto": "Le doy a toques para anticipo de porton y material",
+    "monto": 7000,
+    "cat": "Materiales"
   }
 ]
