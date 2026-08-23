@@ -564,160 +564,183 @@
     "fecha": "2026-08-15",
     "concepto": "LE DI A TOKES PARA MANO DE OBRA",
     "monto": 2000,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 72,
     "fecha": "2026-08-15",
     "concepto": "Deposito Chino anticipo Ventanas Aluminio Sta. Leticia",
     "monto": 2400,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 73,
     "fecha": "2026-08-17",
     "concepto": "Pago Mat. de Mex. para Sta. Leticia Toques",
     "monto": 454,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 74,
     "fecha": "2026-08-17",
     "concepto": "Pago Ferreteria Mi casa para Sta. Leticia Toques",
     "monto": 510,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 75,
     "fecha": "2026-08-17",
     "concepto": "Pago Lumitodo para Sta. Leticia  Toques",
     "monto": 395,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 76,
     "fecha": "2026-08-17",
     "concepto": "Pago Imperquimia para Sta. Leticia Toques",
     "monto": 769,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 77,
     "fecha": "2026-08-18",
     "concepto": "Pago Mat. de Mex casa Sta. Leticia Toques",
     "monto": 1417,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 78,
     "fecha": "2026-08-18",
     "concepto": "Pago Mat. de Mex casa Sta. Leticia Toques",
     "monto": 2535,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 79,
     "fecha": "2026-08-18",
     "concepto": "Pago Mat. Sta. Ines Arnero casa Sta. Leticia Toques",
     "monto": 90,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 80,
     "fecha": "2026-08-18",
     "concepto": "Pago Mi casa ferreteria Tee sencilla 2\" Sta. Let. Toques",
     "monto": 16,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 81,
     "fecha": "2026-08-19",
     "concepto": "Le repongo nota a Persi Materiales Tucán Sta. Leticia",
     "monto": 300,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 82,
     "fecha": "2026-08-19",
     "concepto": "Pago Makarza bulto de Yeso Sta. Leticia toques",
     "monto": 250,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 83,
     "fecha": "2026-08-19",
     "concepto": "Le repongo notas a toques material Sta. Leticia",
     "monto": 332,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 84,
     "fecha": "2026-08-19",
     "concepto": "Le dejo a toques para material Sta. leticia",
     "monto": 668,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 85,
     "fecha": "2026-08-20",
     "concepto": "Pago serv. de Mantenimiento maquina toques",
     "monto": 150,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 86,
     "fecha": "2026-08-21",
     "concepto": "Pago Fix material para Sta. Leticia Toques",
-    "monto": 2055,
-    "cat": "Materiales"
+    "monto": 205.5,
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 87,
     "fecha": "2026-08-21",
     "concepto": "Prod. de Limpieza para Sta. Leticia Toques",
     "monto": 223,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 88,
     "fecha": "2026-08-21",
     "concepto": "Pago Mat. de Mexico Para Sta. Leticia Toques",
     "monto": 750,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 89,
     "fecha": "2026-08-21",
     "concepto": "Pago Mat. de Mexico Para Sta. Leticia Toques",
     "monto": 2100,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 90,
     "fecha": "2026-08-22",
     "concepto": "Adelanto Nomina para PASTERO Sta. Leticia Toques",
     "monto": 5500,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 91,
     "fecha": "2026-08-22",
     "concepto": "Le doy a Toques complemento de nomina Santa Leticia",
     "monto": 13400,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 92,
     "fecha": "2026-08-22",
     "concepto": "Pago Lumitodo  Lamparas para Sta. Leticia Toques",
     "monto": 1567,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 93,
     "fecha": "2026-08-22",
     "concepto": "PISOS PARA BALOS REVISAR BIEN LO QUE SE PAGO",
     "monto": 8000,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   }
 ]
