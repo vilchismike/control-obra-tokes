@@ -677,5 +677,12 @@
     "concepto": "Prod. de Limpieza para Sta. Leticia Toques",
     "monto": 223,
     "cat": "Materiales"
+  },
+  {
+    "id": 88,
+    "fecha": "2026-08-21",
+    "concepto": "Pago Mat. de Mexico Para Sta. Leticia Toques",
+    "monto": 750,
+    "cat": "Materiales"
   }
 ]
