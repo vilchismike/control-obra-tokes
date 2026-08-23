@@ -554,7 +554,7 @@
   {
     "id": 70,
     "fecha": "2026-08-14",
-    "concepto": "Le doy a Toques para Nómina de Sta. Leticia",
+    "concepto": "Le doy a Toques para NÃ³mina de Sta. Leticia",
     "monto": 17500,
     "cat": "Mano de obra",
     "editing": false
@@ -571,6 +571,13 @@
     "fecha": "2026-08-15",
     "concepto": "Deposito Chino anticipo Ventanas Aluminio Sta. Leticia",
     "monto": 2400,
+    "cat": "Materiales"
+  },
+  {
+    "id": 73,
+    "fecha": "2026-08-17",
+    "concepto": "Pago Mat. de Mex. para Sta. Leticia Toques",
+    "monto": 454,
     "cat": "Materiales"
   }
 ]
