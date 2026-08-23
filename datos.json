@@ -600,5 +600,12 @@
     "concepto": "Pago Imperquimia para Sta. Leticia Toques",
     "monto": 769,
     "cat": "Materiales"
+  },
+  {
+    "id": 77,
+    "fecha": "2026-08-18",
+    "concepto": "Pago Mat. de Mex casa Sta. Leticia Toques",
+    "monto": 1417,
+    "cat": "Materiales"
   }
 ]
