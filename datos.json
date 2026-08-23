@@ -642,5 +642,12 @@
     "concepto": "Pago Makarza bulto de Yeso Sta. Leticia toques",
     "monto": 250,
     "cat": "Materiales"
+  },
+  {
+    "id": 83,
+    "fecha": "2026-08-19",
+    "concepto": "Le repongo notas a toques material Sta. Leticia",
+    "monto": 332,
+    "cat": "Materiales"
   }
 ]
