@@ -586,5 +586,12 @@
     "concepto": "Pago Ferreteria Mi casa para Sta. Leticia Toques",
     "monto": 510,
     "cat": "Materiales"
+  },
+  {
+    "id": 75,
+    "fecha": "2026-08-17",
+    "concepto": "Pago Lumitodo para Sta. Leticia  Toques",
+    "monto": 395,
+    "cat": "Materiales"
   }
 ]
