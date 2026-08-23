@@ -705,5 +705,12 @@
     "concepto": "Le doy a Toques complemento de nomina Santa Leticia",
     "monto": 13400,
     "cat": "Mano de obra"
+  },
+  {
+    "id": 92,
+    "fecha": "2026-08-22",
+    "concepto": "Pago Lumitodo  Lamparas para Sta. Leticia Toques",
+    "monto": 1567,
+    "cat": "Materiales"
   }
 ]
