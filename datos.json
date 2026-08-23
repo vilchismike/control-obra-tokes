@@ -663,5 +663,12 @@
     "concepto": "Pago serv. de Mantenimiento maquina toques",
     "monto": 150,
     "cat": "Materiales"
+  },
+  {
+    "id": 86,
+    "fecha": "2026-08-21",
+    "concepto": "Pago Fix material para Sta. Leticia Toques",
+    "monto": 2055,
+    "cat": "Materiales"
   }
 ]
