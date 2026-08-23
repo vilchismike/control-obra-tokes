@@ -607,5 +607,12 @@
     "concepto": "Pago Mat. de Mex casa Sta. Leticia Toques",
     "monto": 1417,
     "cat": "Materiales"
+  },
+  {
+    "id": 78,
+    "fecha": "2026-08-18",
+    "concepto": "Pago Mat. de Mex casa Sta. Leticia Toques",
+    "monto": 2535,
+    "cat": "Materiales"
   }
 ]
