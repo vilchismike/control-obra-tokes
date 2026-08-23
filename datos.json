@@ -593,5 +593,12 @@
     "concepto": "Pago Lumitodo para Sta. Leticia  Toques",
     "monto": 395,
     "cat": "Materiales"
+  },
+  {
+    "id": 76,
+    "fecha": "2026-08-17",
+    "concepto": "Pago Imperquimia para Sta. Leticia Toques",
+    "monto": 769,
+    "cat": "Materiales"
   }
 ]
