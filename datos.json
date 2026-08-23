@@ -621,5 +621,12 @@
     "concepto": "Pago Mat. Sta. Ines Arnero casa Sta. Leticia Toques",
     "monto": 90,
     "cat": "Materiales"
+  },
+  {
+    "id": 80,
+    "fecha": "2026-08-18",
+    "concepto": "Pago Mi casa ferreteria Tee sencilla 2\" Sta. Let. Toques",
+    "monto": 16,
+    "cat": "Materiales"
   }
 ]
