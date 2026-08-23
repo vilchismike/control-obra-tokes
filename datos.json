@@ -712,5 +712,12 @@
     "concepto": "Pago Lumitodo  Lamparas para Sta. Leticia Toques",
     "monto": 1567,
     "cat": "Materiales"
+  },
+  {
+    "id": 93,
+    "fecha": "2026-08-22",
+    "concepto": "PISOS PARA BALOS REVISAR BIEN LO QUE SE PAGO",
+    "monto": 8000,
+    "cat": "Materiales"
   }
 ]
