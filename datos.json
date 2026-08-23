@@ -614,5 +614,12 @@
     "concepto": "Pago Mat. de Mex casa Sta. Leticia Toques",
     "monto": 2535,
     "cat": "Materiales"
+  },
+  {
+    "id": 79,
+    "fecha": "2026-08-18",
+    "concepto": "Pago Mat. Sta. Ines Arnero casa Sta. Leticia Toques",
+    "monto": 90,
+    "cat": "Materiales"
   }
 ]
