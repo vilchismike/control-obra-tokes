@@ -635,5 +635,12 @@
     "concepto": "Le repongo nota a Persi Materiales Tucán Sta. Leticia",
     "monto": 300,
     "cat": "Materiales"
+  },
+  {
+    "id": 82,
+    "fecha": "2026-08-19",
+    "concepto": "Pago Makarza bulto de Yeso Sta. Leticia toques",
+    "monto": 250,
+    "cat": "Materiales"
   }
 ]
