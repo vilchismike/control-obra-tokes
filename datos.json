@@ -579,5 +579,12 @@
     "concepto": "Pago Mat. de Mex. para Sta. Leticia Toques",
     "monto": 454,
     "cat": "Materiales"
+  },
+  {
+    "id": 74,
+    "fecha": "2026-08-17",
+    "concepto": "Pago Ferreteria Mi casa para Sta. Leticia Toques",
+    "monto": 510,
+    "cat": "Materiales"
   }
 ]
