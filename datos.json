@@ -656,5 +656,12 @@
     "concepto": "Le dejo a toques para material Sta. leticia",
     "monto": 668,
     "cat": "Materiales"
+  },
+  {
+    "id": 85,
+    "fecha": "2026-08-20",
+    "concepto": "Pago serv. de Mantenimiento maquina toques",
+    "monto": 150,
+    "cat": "Materiales"
   }
 ]
