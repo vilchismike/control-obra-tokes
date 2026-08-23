@@ -628,5 +628,12 @@
     "concepto": "Pago Mi casa ferreteria Tee sencilla 2\" Sta. Let. Toques",
     "monto": 16,
     "cat": "Materiales"
+  },
+  {
+    "id": 81,
+    "fecha": "2026-08-19",
+    "concepto": "Le repongo nota a Persi Materiales Tucán Sta. Leticia",
+    "monto": 300,
+    "cat": "Materiales"
   }
 ]
