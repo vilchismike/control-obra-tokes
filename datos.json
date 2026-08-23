@@ -670,5 +670,12 @@
     "concepto": "Pago Fix material para Sta. Leticia Toques",
     "monto": 2055,
     "cat": "Materiales"
+  },
+  {
+    "id": 87,
+    "fecha": "2026-08-21",
+    "concepto": "Prod. de Limpieza para Sta. Leticia Toques",
+    "monto": 223,
+    "cat": "Materiales"
   }
 ]
