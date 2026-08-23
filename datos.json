@@ -684,5 +684,12 @@
     "concepto": "Pago Mat. de Mexico Para Sta. Leticia Toques",
     "monto": 750,
     "cat": "Materiales"
+  },
+  {
+    "id": 89,
+    "fecha": "2026-08-21",
+    "concepto": "Pago Mat. de Mexico Para Sta. Leticia Toques",
+    "monto": 2100,
+    "cat": "Materiales"
   }
 ]
