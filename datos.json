@@ -649,5 +649,12 @@
     "concepto": "Le repongo notas a toques material Sta. Leticia",
     "monto": 332,
     "cat": "Materiales"
+  },
+  {
+    "id": 84,
+    "fecha": "2026-08-19",
+    "concepto": "Le dejo a toques para material Sta. leticia",
+    "monto": 668,
+    "cat": "Materiales"
   }
 ]
