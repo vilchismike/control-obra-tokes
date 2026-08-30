@@ -777,5 +777,12 @@
     "concepto": "Pago Mat. de Mex  material Sta. Leticia Toques",
     "monto": 4512,
     "cat": "Materiales"
+  },
+  {
+    "id": 99,
+    "fecha": "2026-08-29",
+    "concepto": "Rafa le da nomina a tokes en santa leticia",
+    "monto": 20250,
+    "cat": "Mano de obra"
   }
 ]
