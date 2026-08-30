@@ -770,5 +770,12 @@
     "concepto": "Rafa le da dinero a rafa para materiales",
     "monto": 1000,
     "cat": "Materiales"
+  },
+  {
+    "id": 98,
+    "fecha": "2026-08-28",
+    "concepto": "Pago Mat. de Mex  material Sta. Leticia Toques",
+    "monto": 4512,
+    "cat": "Materiales"
   }
 ]
