@@ -742,5 +742,12 @@
     "monto": 8349,
     "cat": "Materiales",
     "editing": false
+  },
+  {
+    "id": 94,
+    "fecha": "2026-08-24",
+    "concepto": "Pago Mat. de Mex. para Santa Leticia Toques",
+    "monto": 2990,
+    "cat": "Materiales"
   }
 ]
