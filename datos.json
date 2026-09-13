@@ -610,7 +610,7 @@
   {
     "id": 77,
     "fecha": "2026-08-18",
-    "concepto": "Pago Interceramic Piso SANTA LETICIA",
+    "concepto": "Pago Imperquimia para Sta. Leticia Toques",
     "monto": 44837.2,
     "cat": "Materiales",
     "editing": false
@@ -756,47 +756,265 @@
     "fecha": "2026-08-24",
     "concepto": "Pago Mat. de Mex. para Santa Leticia Toques",
     "monto": 2990,
-    "cat": "Materiales",
-    "editing": false
+    "cat": "Materiales"
   },
   {
     "id": 96,
     "fecha": "2026-08-26",
     "concepto": "Pago Mat. De Mex material Sta. Leticia Toques",
     "monto": 316.5,
-    "cat": "Materiales",
-    "editing": false
+    "cat": "Materiales"
   },
   {
     "id": 97,
     "fecha": "2026-08-27",
     "concepto": "Rafa le da dinero a rafa para mano obra",
     "monto": 1000,
-    "cat": "Mano de obra",
-    "editing": false
+    "cat": "Mano de obra"
   },
   {
     "id": 98,
     "fecha": "2026-08-27",
     "concepto": "Rafa le da dinero a rafa para materiales",
     "monto": 1000,
-    "cat": "Materiales",
-    "editing": false
+    "cat": "Materiales"
   },
   {
     "id": 99,
     "fecha": "2026-08-28",
     "concepto": "Pago Mat. de Mex  material Sta. Leticia Toques",
     "monto": 4512,
-    "cat": "Materiales",
-    "editing": false
+    "cat": "Materiales"
   },
   {
     "id": 100,
     "fecha": "2026-08-29",
     "concepto": "Rafa le da nomina a tokes en santa leticia",
     "monto": 20250,
+    "cat": "Mano de obra"
+  },
+  {
+    "id": 101,
+    "fecha": "2026-08-31",
+    "concepto": "ADELANTO POR PAGO DE CRISTALES SANTA LETICIA",
+    "monto": 3000,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 102,
+    "fecha": "2026-08-31",
+    "concepto": "ADELANTO DE LA PUERTA EN SANTA LETICIA - CARPINTERIA",
+    "monto": 2000,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 103,
+    "fecha": "2026-08-31",
+    "concepto": "Pago Mat. de Mex. material pata Sta. Leticia Toques",
+    "monto": 2950,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 104,
+    "fecha": "2026-08-31",
+    "concepto": "Pago Mat. de Mex. material pata Sta. Leticia Toques",
+    "monto": 275,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 105,
+    "fecha": "2026-08-31",
+    "concepto": "Pago Mat. de Mex. material pata Sta. Leticia Toques",
+    "monto": 188,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 106,
+    "fecha": "2026-09-01",
+    "concepto": "Pago ferreteria Mi casa material Sta. Leticia Toques",
+    "monto": 4274,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 107,
+    "fecha": "2026-09-01",
+    "concepto": "Pago LUMITODO material Sta. Leticia Toques",
+    "monto": 2750,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 108,
+    "fecha": "2026-09-01",
+    "concepto": "Pago Mat. de Mex material Sta. Leticia Toques",
+    "monto": 1200,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 109,
+    "fecha": "2026-09-01",
+    "concepto": "Pago Mat. de Mex material Sta. Leticia Toques",
+    "monto": 103,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 110,
+    "fecha": "2026-09-01",
+    "concepto": "Pago Mat. de Mex material Sta. Leticia Toques",
+    "monto": 665,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 111,
+    "fecha": "2026-09-01",
+    "concepto": "Pago ferreteria Makarsa para sta. Leticia Toques",
+    "monto": 245,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 112,
+    "fecha": "2026-09-02",
+    "concepto": "Pago Gersa por tasa de baño Sta. Leticia Toques",
+    "monto": 2199,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 113,
+    "fecha": "2026-09-03",
+    "concepto": "Pago de lamparas para sala y parte de arriba",
+    "monto": 2685,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 114,
+    "fecha": "2026-09-04",
+    "concepto": "Pago Festher sellador Sta. Leticia Toques",
+    "monto": 854,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 115,
+    "fecha": "2026-09-04",
+    "concepto": "Pago Fix material Para Sta. Leticia. Toques",
+    "monto": 602,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 116,
+    "fecha": "2026-09-04",
+    "concepto": "Pago Ferreteria DANY para Sta. Leticia Toques",
+    "monto": 1000,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 117,
+    "fecha": "2026-09-05",
+    "concepto": "RAFA LE LLEVA DINERO AL TOKES",
+    "monto": 15500,
     "cat": "Mano de obra",
+    "editing": false
+  },
+  {
+    "id": 118,
+    "fecha": "2026-09-05",
+    "concepto": "Compra de piso para escalera interceramic",
+    "monto": 2921,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 119,
+    "fecha": "2026-09-07",
+    "concepto": "Pago Mat. de Mex material para Sta. Leticia Toques",
+    "monto": 120,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 120,
+    "fecha": "2026-09-07",
+    "concepto": "Pago Mat. de Mex material para Sta. Leticia Toques",
+    "monto": 1160,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 121,
+    "fecha": "2026-09-07",
+    "concepto": "Pago con comisión Oxxo Amazon Miky REGADERAS",
+    "monto": 1277,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 122,
+    "fecha": "2026-09-10",
+    "concepto": "Pago Mat. de Mex material para Sta. Leticia Toques",
+    "monto": 91,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 123,
+    "fecha": "2026-09-10",
+    "concepto": "Pago Mat. de Mex material para Sta. Leticia Toques",
+    "monto": 50,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 124,
+    "fecha": "2026-09-10",
+    "concepto": "Pago Mat. de Mex material para Sta. Leticia Toques",
+    "monto": 1200,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 125,
+    "fecha": "2026-09-10",
+    "concepto": "Pago Mat. de Mex material para Sta. Leticia Toques",
+    "monto": 4032,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 126,
+    "fecha": "2026-09-11",
+    "concepto": "Pago interceramic Boquilla para Sta. Leticia Toques",
+    "monto": 398,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 127,
+    "fecha": "2026-09-12",
+    "concepto": "Le doy a Toques en Santa Leticia",
+    "monto": 13500,
+    "cat": "Mano de obra",
+    "editing": false
+  },
+  {
+    "id": 128,
+    "fecha": "2026-09-12",
+    "concepto": "Pago Mat. de Mex para Sta. Leticia Toques",
+    "monto": 389,
+    "cat": "Materiales",
     "editing": false
   }
 ]
