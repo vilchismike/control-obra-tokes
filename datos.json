@@ -1037,7 +1037,7 @@
     "id": 131,
     "fecha": "2026-09-15",
     "concepto": "Pago Gersa Boyler para Sta Leticia Toques",
-    "monto": 8349.0,
+    "monto": 8349,
     "cat": "Materiales",
     "editing": false
   },
@@ -1045,7 +1045,7 @@
     "id": 132,
     "fecha": "2026-09-15",
     "concepto": "Pago Gersa 2 Tazas baño para Sta. Leticia Toques",
-    "monto": 4178.0,
+    "monto": 4178,
     "cat": "Materiales",
     "editing": false
   },
@@ -1053,7 +1053,7 @@
     "id": 133,
     "fecha": "2026-09-15",
     "concepto": "Pago Makita 2 discos corta pisos Sta. Leticia Toques",
-    "monto": 300.0,
+    "monto": 300,
     "cat": "Materiales",
     "editing": false
   },
@@ -1061,7 +1061,7 @@
     "id": 134,
     "fecha": "2026-09-15",
     "concepto": "Carpintero santa leticia adelante de puerta",
-    "monto": 500.0,
+    "monto": 500,
     "cat": "Materiales",
     "editing": false
   },
@@ -1069,7 +1069,7 @@
     "id": 135,
     "fecha": "2026-09-17",
     "concepto": "Le doy a toques 100 gasolina, 227 Sayer, 215 Fix",
-    "monto": 600.0,
+    "monto": 600,
     "cat": "Materiales",
     "editing": false
   },
@@ -1077,7 +1077,7 @@
     "id": 136,
     "fecha": "2026-09-17",
     "concepto": "Pago Comex Pintura, felpas y brocha Sta. Leticia Toques",
-    "monto": 8610.0,
+    "monto": 8610,
     "cat": "Materiales",
     "editing": false
   },
@@ -1085,7 +1085,7 @@
     "id": 137,
     "fecha": "2026-09-17",
     "concepto": "Pago Comex pintura Sta. Leticia Toques",
-    "monto": 8202.0,
+    "monto": 8202,
     "cat": "Materiales",
     "editing": false
   },
@@ -1093,7 +1093,7 @@
     "id": 138,
     "fecha": "2026-09-17",
     "concepto": "Pago Comex pintura Galon $lts. Sta. Leticia Toques",
-    "monto": 654.0,
+    "monto": 654,
     "cat": "Materiales",
     "editing": false
   },
@@ -1101,7 +1101,7 @@
     "id": 139,
     "fecha": "2026-09-17",
     "concepto": "Pago Mat. de Mex candado para Sta. Leticia Toques",
-    "monto": 120.0,
+    "monto": 120,
     "cat": "Materiales",
     "editing": false
   },
@@ -1109,8 +1109,15 @@
     "id": 140,
     "fecha": "2026-09-17",
     "concepto": "Pago Mat. de Mex material para Sta. Leticia Toques",
-    "monto": 643.0,
+    "monto": 643,
     "cat": "Materiales",
     "editing": false
+  },
+  {
+    "id": 141,
+    "fecha": "2026-09-18",
+    "concepto": "Anticipo pago de carpinteria puertas",
+    "monto": 14000,
+    "cat": "Materiales"
   }
 ]
