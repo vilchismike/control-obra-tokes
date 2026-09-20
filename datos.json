@@ -1119,5 +1119,12 @@
     "concepto": "Anticipo pago de carpinteria puertas",
     "monto": 14000,
     "cat": "Materiales"
+  },
+  {
+    "id": 142,
+    "fecha": "2026-09-19",
+    "concepto": "RAFA LE LLEVA DINERO A TOKES",
+    "monto": 15500,
+    "cat": "Mano de obra"
   }
 ]
