@@ -1126,5 +1126,93 @@
     "concepto": "RAFA LE LLEVA DINERO A TOKES",
     "monto": 15500,
     "cat": "Mano de obra"
+  },
+  {
+    "id": 143,
+    "fecha": "2026-09-19",
+    "concepto": "Pago ferretria Ballinas lavadero para Sta. Leticia Toques",
+    "monto": 800,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 144,
+    "fecha": "2026-09-21",
+    "concepto": "Pago Gersa Porcelanato y junta Sta. Leticia Toques",
+    "monto": 1585,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 145,
+    "fecha": "2026-09-21",
+    "concepto": "Propina por cargar porcrlanato a carro",
+    "monto": 15,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 146,
+    "fecha": "2026-09-21",
+    "concepto": "Pago Mat. de Mex material para Sta. Leticia Toques",
+    "monto": 241,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 147,
+    "fecha": "2026-09-21",
+    "concepto": "Pago Mat. de Mex material para Sta. Leticia Toques",
+    "monto": 507,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 148,
+    "fecha": "2026-09-21",
+    "concepto": "Pago Mat. de Mex material para Sta. Leticia Toques",
+    "monto": 130,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 149,
+    "fecha": "2026-09-21",
+    "concepto": "Pago Mat. de Mex material para Sta. Leticia Toques",
+    "monto": 316,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 150,
+    "fecha": "2026-09-21",
+    "concepto": "Pago Interceramic Adhesivo para porcelanato S. Let. Toques",
+    "monto": 867,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 151,
+    "fecha": "2026-09-21",
+    "concepto": "Propina a chavo Interceramic para subir sacos de adhesivo",
+    "monto": 10,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 152,
+    "fecha": "2026-09-22",
+    "concepto": "Pago Comex Pintura fachada Sta. Leticia Toques",
+    "monto": 5545,
+    "cat": "Materiales",
+    "editing": false
+  },
+  {
+    "id": 153,
+    "fecha": "2026-09-23",
+    "concepto": "Le doy a Toques para material casa Sta Leticia",
+    "monto": 250,
+    "cat": "Materiales",
+    "editing": false
   }
 ]
