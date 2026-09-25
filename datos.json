@@ -756,42 +756,48 @@
     "fecha": "2026-08-24",
     "concepto": "Pago Mat. de Mex. para Santa Leticia Toques",
     "monto": 2990,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 96,
     "fecha": "2026-08-26",
     "concepto": "Pago Mat. De Mex material Sta. Leticia Toques",
     "monto": 316.5,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 97,
     "fecha": "2026-08-27",
     "concepto": "Rafa le da dinero a rafa para mano obra",
     "monto": 1000,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 98,
     "fecha": "2026-08-27",
     "concepto": "Rafa le da dinero a rafa para materiales",
     "monto": 1000,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 99,
     "fecha": "2026-08-28",
     "concepto": "Pago Mat. de Mex  material Sta. Leticia Toques",
     "monto": 4512,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 100,
     "fecha": "2026-08-29",
     "concepto": "Rafa le da nomina a tokes en santa leticia",
     "monto": 20250,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 101,
@@ -1118,14 +1124,16 @@
     "fecha": "2026-09-18",
     "concepto": "Anticipo pago de carpinteria puertas",
     "monto": 14000,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 142,
     "fecha": "2026-09-19",
     "concepto": "RAFA LE LLEVA DINERO A TOKES",
-    "monto": 15500,
-    "cat": "Mano de obra"
+    "monto": 14500,
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 143,
