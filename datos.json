@@ -1250,5 +1250,12 @@
     "concepto": "Pago a Balconero Sta. Leticia herreria",
     "monto": 3000,
     "cat": "Materiales"
+  },
+  {
+    "id": 158,
+    "fecha": "2026-09-26",
+    "concepto": "Le repongo notas a Toques Material Sta. Leticia",
+    "monto": 400,
+    "cat": "Materiales"
   }
 ]
