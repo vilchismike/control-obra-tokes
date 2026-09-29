@@ -1222,5 +1222,12 @@
     "monto": 250,
     "cat": "Materiales",
     "editing": false
+  },
+  {
+    "id": 154,
+    "fecha": "2026-09-23",
+    "concepto": "Le doy a toques para anticipo de porton, balcon y barandal herrero",
+    "monto": 1000,
+    "cat": "Materiales"
   }
 ]
