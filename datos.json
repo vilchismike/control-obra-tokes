@@ -1229,5 +1229,12 @@
     "concepto": "Le doy a toques para anticipo de porton, balcon y barandal herrero",
     "monto": 1000,
     "cat": "Materiales"
+  },
+  {
+    "id": 155,
+    "fecha": "2026-09-25",
+    "concepto": "Le doy anticipo a Carpintero por puertas de Sta. Leticia",
+    "monto": 5000,
+    "cat": "Mano de obra"
   }
 ]
