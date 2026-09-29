@@ -1228,34 +1228,39 @@
     "fecha": "2026-09-23",
     "concepto": "Le doy a toques para anticipo de porton, balcon y barandal herrero",
     "monto": 1000,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 155,
     "fecha": "2026-09-25",
     "concepto": "Le doy anticipo a Carpintero por puertas de Sta. Leticia",
     "monto": 5000,
-    "cat": "Mano de obra"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 156,
     "fecha": "2026-09-26",
     "concepto": "Le doy a Toques en Sta. Leticia",
     "monto": 8872,
-    "cat": "Mano de obra"
+    "cat": "Mano de obra",
+    "editing": false
   },
   {
     "id": 157,
     "fecha": "2026-09-26",
     "concepto": "Pago a Balconero Sta. Leticia herreria",
     "monto": 3000,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 158,
     "fecha": "2026-09-26",
     "concepto": "Le repongo notas a Toques Material Sta. Leticia",
     "monto": 400,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   }
 ]
