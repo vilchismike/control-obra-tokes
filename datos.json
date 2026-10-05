@@ -1283,5 +1283,12 @@
     "concepto": "Pago a Balconero por barandales Sta. Leticia",
     "monto": 3100,
     "cat": "Materiales"
+  },
+  {
+    "id": 162,
+    "fecha": "2026-10-05",
+    "concepto": "Pago a Chino recortar Puerta aluminio de la entrada principal Sta. Leticia",
+    "monto": 1100,
+    "cat": "Materiales"
   }
 ]
