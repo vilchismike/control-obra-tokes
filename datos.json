@@ -1290,5 +1290,12 @@
     "concepto": "Pago a Chino recortar Puerta aluminio de la entrada principal Sta. Leticia",
     "monto": 1100,
     "cat": "Materiales"
+  },
+  {
+    "id": 163,
+    "fecha": "2026-10-06",
+    "concepto": "Liquidar las puertas de madera",
+    "monto": 5000,
+    "cat": "Materiales"
   }
 ]
