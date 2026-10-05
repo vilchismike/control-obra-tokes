@@ -1262,5 +1262,12 @@
     "monto": 400,
     "cat": "Materiales",
     "editing": false
+  },
+  {
+    "id": 159,
+    "fecha": "2026-10-02",
+    "concepto": "Pago Mat. de Mex material Sta. Leticia Toques",
+    "monto": 427,
+    "cat": "Materiales"
   }
 ]
