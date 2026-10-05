@@ -1276,5 +1276,12 @@
     "concepto": "Pago Carpintero puertas Santa Leticia",
     "monto": 4000,
     "cat": "Materiales"
+  },
+  {
+    "id": 161,
+    "fecha": "2026-10-03",
+    "concepto": "Pago a Balconero por barandales Sta. Leticia",
+    "monto": 3100,
+    "cat": "Materiales"
   }
 ]
