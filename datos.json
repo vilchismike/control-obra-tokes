@@ -1316,5 +1316,12 @@
     "concepto": "Le doy al chino Apartado puerta de aluminio",
     "monto": 2500,
     "cat": "Materiales"
+  },
+  {
+    "id": 166,
+    "fecha": "2026-10-08",
+    "concepto": "Pago carpintero puertas pendientes de pagar y chapas Santa Leticia",
+    "monto": 3695,
+    "cat": "Materiales"
   }
 ]
