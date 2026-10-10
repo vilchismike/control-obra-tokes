@@ -1268,34 +1268,39 @@
     "fecha": "2026-10-02",
     "concepto": "Pago Mat. de Mex material Sta. Leticia Toques",
     "monto": 427,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 160,
     "fecha": "2026-10-02",
     "concepto": "Pago Carpintero puertas Santa Leticia",
     "monto": 4000,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 161,
     "fecha": "2026-10-03",
     "concepto": "Pago a Balconero por barandales Sta. Leticia",
     "monto": 3100,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 162,
     "fecha": "2026-10-05",
     "concepto": "Pago a Chino recortar Puerta aluminio de la entrada principal Sta. Leticia",
     "monto": 1100,
-    "cat": "Materiales"
+    "cat": "Materiales",
+    "editing": false
   },
   {
     "id": 163,
     "fecha": "2026-10-06",
-    "concepto": "Liquidar las puertas de madera",
-    "monto": 5000,
-    "cat": "Materiales"
+    "concepto": "Pago Interceramic Junta para Santa Leticia",
+    "monto": 200,
+    "cat": "Materiales",
+    "editing": false
   }
 ]
