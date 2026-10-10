@@ -1302,5 +1302,12 @@
     "monto": 200,
     "cat": "Materiales",
     "editing": false
+  },
+  {
+    "id": 164,
+    "fecha": "2026-10-06",
+    "concepto": "Recortar la 2da puerta de aluminio",
+    "monto": 1100,
+    "cat": "Materiales"
   }
 ]
