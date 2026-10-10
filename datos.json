@@ -1309,5 +1309,12 @@
     "concepto": "Recortar la 2da puerta de aluminio",
     "monto": 1100,
     "cat": "Materiales"
+  },
+  {
+    "id": 165,
+    "fecha": "2026-10-06",
+    "concepto": "Le doy al chino Apartado puerta de aluminio",
+    "monto": 2500,
+    "cat": "Materiales"
   }
 ]
