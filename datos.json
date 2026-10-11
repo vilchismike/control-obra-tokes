@@ -1330,5 +1330,12 @@
     "concepto": "Pago Mat. de Mex material para casa Sta. Leticia Toques",
     "monto": 611,
     "cat": "Materiales"
+  },
+  {
+    "id": 168,
+    "fecha": "2026-10-10",
+    "concepto": "Pago Interceramic Boquilla para Sta. Leticia Toques",
+    "monto": 199,
+    "cat": "Materiales"
   }
 ]
