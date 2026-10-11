@@ -1323,5 +1323,12 @@
     "concepto": "Pago carpintero puertas pendientes de pagar y chapas Santa Leticia",
     "monto": 3695,
     "cat": "Materiales"
+  },
+  {
+    "id": 167,
+    "fecha": "2026-10-10",
+    "concepto": "Pago Mat. de Mex material para casa Sta. Leticia Toques",
+    "monto": 611,
+    "cat": "Materiales"
   }
 ]
