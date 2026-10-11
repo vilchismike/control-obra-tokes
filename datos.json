@@ -1337,5 +1337,12 @@
     "concepto": "Pago Interceramic Boquilla para Sta. Leticia Toques",
     "monto": 199,
     "cat": "Materiales"
+  },
+  {
+    "id": 169,
+    "fecha": "2026-10-10",
+    "concepto": "Le doy a Toques en Sta. Leticia para pago volteo escombro",
+    "monto": 2400,
+    "cat": "Vicios Ocultos"
   }
 ]
