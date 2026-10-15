@@ -1350,5 +1350,12 @@
     "monto": 1036,
     "cat": "Materiales",
     "editing": false
+  },
+  {
+    "id": 170,
+    "fecha": "2026-10-13",
+    "concepto": "Le doy a Chino por pago puerta aluminio Sta. Leticia",
+    "monto": 1700,
+    "cat": "Materiales"
   }
 ]
